@@ -3,7 +3,7 @@ import requests
 USER_AGENT = "weather-app-example"
 
 def get_city_coordinates(city_name: str):
-    url = f"https://nominatim.openstreetmap.org/search"
+    url = "https://nominatim.openstreetmap.org/search"
     params = {
         "format": "json",
         "q": city_name,
