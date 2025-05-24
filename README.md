@@ -26,8 +26,11 @@
 # Клонировать репозиторий и перейти в папку проекта
 git clone https://github.com/rvllvd/weather_project
 
+# Перейти в дирикторию
+cd weather_project
+
 # Создать виртуальнле окружение: 
-python -m venv
+python -m venv venv
 
 # Активировать виртуальное окружение: 
 source ./venv/bin/activate
